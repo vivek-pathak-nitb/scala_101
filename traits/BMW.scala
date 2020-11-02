@@ -1,5 +1,6 @@
 package traits
 
-class BMW {
-
+class BMW extends Car with Shiny {
+  val brand = "BMW"
+  val shineRefraction: Int = 12;
 }
